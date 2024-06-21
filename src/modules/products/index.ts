@@ -5,3 +5,4 @@ export * from './screens/ProductsByCategoryScreen';
 export * from './screens/FavoritesScreen';
 export * from './screens/BasketScreen';
 export * from './screens/PaymentCongratsScreen';
+export * from './screens/MenuScreen';

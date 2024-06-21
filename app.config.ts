@@ -8,8 +8,8 @@ const config = {
     userInterfaceStyle: 'light',
     splash: {
       image: './assets/splash.png',
-      resizeMode: 'contain',
-      backgroundColor: '#ffffff',
+      resizeMode: 'cover',
+      backgroundColor: '#9C73F8FF',
     },
     assetBundlePatterns: ['**/*'],
     ios: {
@@ -23,7 +23,7 @@ const config = {
     android: {
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#9C73F8FF',
       },
       package: 'com.sivashik98.shop',
       permissions: ['android.permission.ACCESS_NETWORK_STATE', 'android.permission.INTERNET', 'android.permission.SYSTEM_ALERT_WINDOW'],
@@ -46,7 +46,11 @@ const config = {
         },
       ],
     ],
-    extra: {},
+    extra: {
+      eas: {
+        projectId: '299544e3-52cf-4ba7-bebc-2a2cf3e0e857',
+      },
+    },
   },
 };
 

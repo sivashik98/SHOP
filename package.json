@@ -5,9 +5,10 @@
   "scripts": {
     "android": "npx expo run android",
     "ios": "npx expo run ios -d",
-    "prebuild": "npx expo prebuild",
+    "prebuild": "npx expo prebuild --clean",
     "fix-code": "prettier --write src/",
-    "connect": "npx expo install"
+    "connect": "npx expo install",
+    "ios-no-cache": "npx expo run ios --no-build-cache"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
